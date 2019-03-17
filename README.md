@@ -1,2 +1,6 @@
 # PyProwess
 Includes example codes in python to leverage some great features of the programming language
+
+I was introduced to Python programming a couple of years back. Over the last months, I have learned a lot of new things and have come to understand and appreciate the very many features of the language which makes it a deceptively powerful tool in the hands of an expert. It not only frees you to think and do stuff that other languages can only acheive after writing a lot of code but the inherent approach to programming is closer to the business logic as perceived by the programmer.
+
+This repository is my way of sharing some sample code to help beginners and veterans alike by showing how something could be done in a simple and easy way. Thanks to the Python community & elaborate documentation that helped me learn the stuff which I share back with the community. Feel free to experiment with the available code and contact me if you would like me to touch upon a particular component. Cheers!
