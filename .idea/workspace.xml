@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c29a1d56-80a6-459b-981e-a56630dbcfcc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,13 +14,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="608">
+              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
               <folding>
                 <element signature="e#621#636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/test_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="668">
+              <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
+              <folding>
+                <element signature="e#100#127#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,6 +68,7 @@
         <option value="$PROJECT_DIR$/examples/generators.py" />
         <option value="$PROJECT_DIR$/examples/requests.py" />
         <option value="$PROJECT_DIR$/examples/api.py" />
+        <option value="$PROJECT_DIR$/examples/test_api.py" />
       </list>
     </option>
   </component>
@@ -91,6 +106,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -106,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api">
+  <component name="RunManager" selected="Python.test_api">
     <configuration name="api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProwess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,48 +165,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generators" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyProwess" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/generators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="magic-methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyProwess" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/magic-methods.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="requests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProwess" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,13 +186,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PyProwess" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/test_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.api" />
+      <item itemvalue="Python.decorators" />
+      <item itemvalue="Python.requests" />
+      <item itemvalue="Python.test_api" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_api" />
         <item itemvalue="Python.api" />
         <item itemvalue="Python.requests" />
         <item itemvalue="Python.decorators" />
-        <item itemvalue="Python.generators" />
-        <item itemvalue="Python.magic-methods" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +235,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 56m 04s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 56m 31s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 56m 34s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 56m 41s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 56m 45s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 57m 48s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 57m 59s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 58m 38s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 19h 58m 42s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api_py - 2019.04.01 at 20h 00m 27s.xml">
+      <configuration name="Unittests in test_api.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
     <editor active="true" />
@@ -249,7 +281,7 @@
       <window_info anchor="bottom" id="TODO" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="8" weight="0.32917964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -292,10 +324,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/requests.py">
+    <entry file="file://$PROJECT_DIR$/examples/requests.py" />
+    <entry file="file://$PROJECT_DIR$/examples/magic-methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -306,19 +339,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/magic-methods.py">
+    <entry file="file://$PROJECT_DIR$/examples/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="608">
+          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+          <folding>
+            <element signature="e#621#636#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/api.py">
+    <entry file="file://$PROJECT_DIR$/examples/test_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="668">
+          <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
           <folding>
-            <element signature="e#621#636#0" expanded="true" />
+            <element signature="e#100#127#0" expanded="true" />
           </folding>
         </state>
       </provider>

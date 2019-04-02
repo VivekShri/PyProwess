@@ -24,6 +24,7 @@ class API:
 
         # Control parameters
         self.enableAPICall = True
+        self.enableStdout = True
 
         # API parameters
         self.apiURL = None
@@ -33,36 +34,48 @@ class API:
 
 
     def getEntry(self,categoryName):
-        print('\nFetching category:',categoryName)
+        if self.enableStdout:
+            print('\nFetching category:',categoryName)
         self.apiURL = URL_BASE + URL_GET_CATEGORY
-        self.apiPayload = {'category':categoryName,'https':True}
+        self.apiPayload = {'category':categoryName, 'https':True}
 
         if self.enableAPICall is True:
             self.response = requests.get(url=self.apiURL,params=self.apiPayload)
             responseJSON = json.loads(self.response.text)
             for key, value in responseJSON.items():
-                print(' -', key, '=', value)
+                if self.enableStdout:
+                    print(' -', key, '=', value)
 
 
     def getRandom(self):
-        print('\nFetching random category...')
+        if self.enableStdout:
+            print('\nFetching random category...')
         self.apiURL = URL_BASE + URL_GET_RANDOM
         self.apiPayload = {'auth':'null'}
 
-        print('URL:',self.apiURL)
-        print('Query params:',self.apiPayload)
+        if self.enableStdout:
+            print('URL:',self.apiURL)
+            print('Query params:',self.apiPayload)
 
         if self.enableAPICall is True:
+            if self.enableStdout:
+                print('API call is enabled')
             self.response = requests.get(url=self.apiURL,params=self.apiPayload)
             responseJSON = json.loads(self.response.text)
             for key, value in responseJSON.items():
-                print(' -', key, '=', value)
+                if self.enableStdout:
+                    print(' -', key, '=', value)
+        else:
+            if self.enableStdout:
+                print('API call is disabled')
 
 
     def getAllCategories(self):
-        print('\nFetching list of all categories...')
+        if self.enableStdout:
+            print('\nFetching list of all categories...')
         self.apiURL = URL_BASE + URL_GET_ALL_CATEGORIES
-        print(self.apiURL)
+        if self.enableStdout:
+            print(self.apiURL)
 
         if self.enableAPICall is True:
             self.response = requests.get(url=self.apiURL)
@@ -77,7 +90,7 @@ if __name__ == '__main__':
 
     # Getting and displaying the list of all categories
     categories = obj.getAllCategories()
-    print(categories)
+    print(len(categories))
 
     # Getting a specific category entry
     obj.getEntry('business')
