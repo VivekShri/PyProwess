@@ -67,14 +67,14 @@ class Test_API(unittest.TestCase):
         self.assertEqual(self.objAPI.apiURL, 'https://api.publicapis.org/entries')
         self.assertDictEqual(self.objAPI.apiPayload, {'category':'business', 'https':True})
 
-    def testResponse(self):
+    def testResponse_getAllCategories(self):
         print('Testing response: getAllCategories')
         categories = self.objAPI.getAllCategories()
         print(' - Validating number of categories returned = 46')
         self.assertEqual(len(categories),46)
 
     @disableStdout
-    def testResponse_Business(self):
+    def testResponse_getEntry_Business(self):
         print('Testing response for category: Business')
         self.objAPI.getEntry('business')
         responseJSON = json.loads(self.objAPI.response.text)

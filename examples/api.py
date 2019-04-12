@@ -18,6 +18,7 @@ URL_GET_CATEGORY = 'entries'
 URL_GET_RANDOM = 'random'
 URL_GET_ALL_CATEGORIES = 'categories'
 
+
 class API:
     def __init__(self):
         print('Setting up API...')
@@ -32,35 +33,33 @@ class API:
         self.apiPayload = None
         self.response = None
 
-
-    def getEntry(self,categoryName):
+    def getEntry(self, categoryName):
         if self.enableStdout:
-            print('\nFetching category:',categoryName)
+            print('\nFetching category:', categoryName)
         self.apiURL = URL_BASE + URL_GET_CATEGORY
-        self.apiPayload = {'category':categoryName, 'https':True}
+        self.apiPayload = {'category': categoryName, 'https': True}
 
         if self.enableAPICall is True:
-            self.response = requests.get(url=self.apiURL,params=self.apiPayload)
+            self.response = requests.get(url=self.apiURL, params=self.apiPayload)
             responseJSON = json.loads(self.response.text)
             for key, value in responseJSON.items():
                 if self.enableStdout:
                     print(' -', key, '=', value)
 
-
     def getRandom(self):
         if self.enableStdout:
             print('\nFetching random category...')
         self.apiURL = URL_BASE + URL_GET_RANDOM
-        self.apiPayload = {'auth':'null'}
+        self.apiPayload = {'auth': 'null'}
 
         if self.enableStdout:
-            print('URL:',self.apiURL)
-            print('Query params:',self.apiPayload)
+            print('URL:', self.apiURL)
+            print('Query params:', self.apiPayload)
 
         if self.enableAPICall is True:
             if self.enableStdout:
                 print('API call is enabled')
-            self.response = requests.get(url=self.apiURL,params=self.apiPayload)
+            self.response = requests.get(url=self.apiURL, params=self.apiPayload)
             responseJSON = json.loads(self.response.text)
             for key, value in responseJSON.items():
                 if self.enableStdout:
@@ -68,7 +67,6 @@ class API:
         else:
             if self.enableStdout:
                 print('API call is disabled')
-
 
     def getAllCategories(self):
         if self.enableStdout:
@@ -84,9 +82,10 @@ class API:
         else:
             return list()
 
+
 if __name__ == '__main__':
-    obj = API()                             # Create class object
-    obj.getRandom()                         # Calling get API to fetch an entry in a random category
+    obj = API()  # Create class object
+    obj.getRandom()  # Calling get API to fetch an entry in a random category
 
     # Getting and displaying the list of all categories
     categories = obj.getAllCategories()

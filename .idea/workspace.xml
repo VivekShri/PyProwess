@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/test_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/test_api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="133">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
               <folding>
                 <element signature="e#621#636#0" expanded="true" />
               </folding>
@@ -29,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/test_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
+            <state relative-caret-position="497">
+              <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
               <folding>
                 <element signature="e#100#127#0" expanded="true" />
               </folding>
@@ -50,9 +51,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>CLASSNAME</find>
+      <find>—</find>
     </findStrings>
     <replaceStrings>
       <replace>API</replace>
+      <replace>-</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -68,6 +71,7 @@
         <option value="$PROJECT_DIR$/examples/generators.py" />
         <option value="$PROJECT_DIR$/examples/requests.py" />
         <option value="$PROJECT_DIR$/examples/api.py" />
+        <option value="$PROJECT_DIR$/examples/qwerty.py" />
         <option value="$PROJECT_DIR$/examples/test_api.py" />
       </list>
     </option>
@@ -86,6 +90,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,7 +107,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,8 +289,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Run" order="3" visible="true" weight="0.43219405" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.43384784" />
+      <window_info anchor="right" id="Run" order="3" weight="0.43219405" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" weight="0.4536935" />
       <window_info anchor="right" id="Terminal" order="5" weight="0.43219405" />
     </layout>
   </component>
@@ -339,10 +343,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/qwerty.py" />
     <entry file="file://$PROJECT_DIR$/examples/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="133">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
           <folding>
             <element signature="e#621#636#0" expanded="true" />
           </folding>
@@ -351,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/test_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="67" column="89" selection-start-line="67" selection-start-column="89" selection-end-line="67" selection-end-column="89" />
+        <state relative-caret-position="497">
+          <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
           <folding>
             <element signature="e#100#127#0" expanded="true" />
           </folding>
